@@ -71,3 +71,34 @@ div.sub2{
     background-color: white;
     
 }
+
+.post-item{
+    border: 2px solid white;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+.post-title{
+    text-align:start;
+    margin: 0px;
+    width: max-content;
+}
+
+
+.post-image{
+    margin-top: 0px;
+    max-width: 35px;
+    max-height: 35px;
+}
+.description{
+    text-align: start;
+    width: max-content;
+    margin: 0px;
+
+    
+}  
+.description, .post-image{
+    display: inline-block;
+    vertical-align: middle;
+
+}
