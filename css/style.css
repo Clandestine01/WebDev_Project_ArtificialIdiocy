@@ -4,18 +4,36 @@ body{
     font-family: "calibri", sans-serif;
     background-color: black;
     color: white;
+    margin: 0px;
+
 }
 nav.navbar{
-    background-color:#FF7F27;
-    padding: 10px;
-    margin-top: -10px;
-    margin-left: -8px;
-    margin-right: -8px;
+    background-color:#702D00;
+    padding: 10px 0;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
 
+
+ul.navbar-nav{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.margin{
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 div.nav-item{
-    display: inline;
+    display: inline-block;
+    vertical-align: middle;
     padding: 0px 10px;
 }
 
@@ -59,6 +77,8 @@ img.medium {
 }
 
 
+
+
 div.separator .sub1, .sub2{
     display: inline-block;
 
@@ -77,6 +97,9 @@ div.separatorLine{
     padding: 10px;
     margin-bottom: 10px;
 
+}
+.post-item:hover{
+    background-color: #333333;
 }
 .post-title{
     text-align:start;
@@ -102,4 +125,14 @@ div.separatorLine{
     display: inline-block;
     vertical-align: middle;
 
+}
+
+.fancy-heading{
+    font-family: Arial-Black;
+    font-weight: bold;
+    
+}
+
+.p1{
+    font-size: 25px;
 }
