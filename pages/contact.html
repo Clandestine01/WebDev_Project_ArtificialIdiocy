@@ -27,11 +27,24 @@
           
             </nav>
 
-            <img src="../media/OIP.webp" alt="The glorious leader" class="small" style="float: right; max-width: 30%;">
-            <h2>Phone No.: 1234 420 6969</h2>
-            <h2>Email: fake@goaway.com</h2>
+            <form class = "contact-form">
+                <h1 style="text-align: center;">Contact Us</h1>
+                <input class="input-field" type="text" id="name" placeholder="Name" style="position: relative; left: 5%;" required >
+                <input class="input-field" type="text" id="sname" placeholder="Surname" style="position: relative; left: 10%;" required >
+                <input class="input-field" type="email" id="email" placeholder="Email" required>
 
+                <select class="input-field" id="inquiry-type" required>
+                    <option value="" disabled selected>Select Inquiry Type</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="support">Technical Support</option>
+                </select>    
+            
+                <textarea class="input-field" id="message" placeholder="Your Message" rows="5" cols="50" required></textarea>
+            
 
+                <button type="submit" id="submit-btn">Submit</button>
+                </form>
 
 
         </body>
