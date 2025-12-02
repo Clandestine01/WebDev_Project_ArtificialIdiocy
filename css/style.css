@@ -8,14 +8,9 @@ body{
 
 }
 nav.navbar{
-    width: 100%;
     background-color:#702D00;
     padding: 10px;
-    padding-right: 0px;
-    margin-top: -10px;
-    margin-left: -8px;
-    margin-right: -8px;
-
+    margin: 0px;
 }
 
 .margin{
@@ -121,6 +116,7 @@ div.separatorLine{
 .contact-form{
     border: 2px solid white;
     padding: 10px;
+    margin-top: 40px;
     margin-left: 25%;
     margin-right: 25%;
     width: 50%;
