@@ -8,22 +8,14 @@ body{
 
 }
 nav.navbar{
-    background-color:#702D00;
-    padding: 10px 0;
-    box-sizing: border-box;
     width: 100%;
-    margin: 0;
-    overflow: hidden;
-}
+    background-color:#702D00;
+    padding: 10px;
+    padding-right: 0px;
+    margin-top: -10px;
+    margin-left: -8px;
+    margin-right: -8px;
 
-
-ul.navbar-nav{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 10px;
 }
 
 .margin{
@@ -32,8 +24,7 @@ ul.navbar-nav{
 }
 
 div.nav-item{
-    display: inline-block;
-    vertical-align: middle;
+    display: inline;
     padding: 0px 10px;
 }
 
@@ -127,12 +118,48 @@ div.separatorLine{
 
 }
 
-.fancy-heading{
-    font-family: Arial-Black;
-    font-weight: bold;
+.contact-form{
+    border: 2px solid white;
+    padding: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
+.input-field{
+    border: none;
+    background-color: black;
+    border-bottom: 2px solid white;
+    color: white;
     
 }
 
-.p1{
-    font-size: 25px;
+::placeholder{
+    color: white;
+}
+
+#email, #inquiry-type, #message{
+    display: block;
+    margin: 15px 5%;
+    width: 90%;
+
+}
+
+#message{
+    border: 2px solid white;
+    max-width: 90%;
+    resize: vertical;
+    
+}
+
+#submit-btn{
+    display: block;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin: auto
+
 }
